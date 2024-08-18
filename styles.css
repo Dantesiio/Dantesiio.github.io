@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tarjeta {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+.informacion h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.informacion p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #1a73e8;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.redes-sociales a:hover {
+    color: #0056b3;
+}
