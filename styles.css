@@ -21,6 +21,7 @@ body {
 
 .tarjeta:hover {
     transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .perfil img {
@@ -50,11 +51,12 @@ body {
     color: #555;
     margin: 0 15px;
     font-size: 24px;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.3s;
 }
 
 .redes-sociales a:hover {
     color: #74ebd5;
+    transform: scale(1.2);
 }
 
 .tarjeta:hover {
